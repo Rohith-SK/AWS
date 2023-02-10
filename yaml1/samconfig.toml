@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "yamlTesting1"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1rgcd7nhtj5ot"
+s3_prefix = "yamlTesting1"
+region = "ap-south-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
